@@ -7003,9 +7003,13 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 2107225053443041952, guid: 2a6087c3066fc4169989ceaff99c5c6b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5864204165709860726, guid: 2a6087c3066fc4169989ceaff99c5c6b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.168
+      value: 7.575
       objectReference: {fileID: 0}
     - target: {fileID: 5864204165709860726, guid: 2a6087c3066fc4169989ceaff99c5c6b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7013,7 +7017,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5864204165709860726, guid: 2a6087c3066fc4169989ceaff99c5c6b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: -0.672
       objectReference: {fileID: 0}
     - target: {fileID: 5864204165709860726, guid: 2a6087c3066fc4169989ceaff99c5c6b, type: 3}
       propertyPath: m_LocalRotation.w
