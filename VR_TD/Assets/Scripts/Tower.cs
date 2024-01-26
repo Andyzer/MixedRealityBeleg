@@ -9,7 +9,7 @@ public class Tower : MonoBehaviour
 
     void FindNextTarget()
     {
-        
+        ////RANDOM SHIT FOR GITHUB
     }
     
     // Start is called before the first frame update
