@@ -372,6 +372,7 @@
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/Money.cs"
+"Assets/Scripts/PurchaseSpace.cs"
 "Assets/Scripts/Tower.cs"
 "Assets/Scripts/Waypoint.cs"
 -langversion:9.0
