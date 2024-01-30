@@ -369,7 +369,11 @@
 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.23.0/Hello Cardboard/Scripts/GraphicsAPITextController.cs"
 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.23.0/Hello Cardboard/Scripts/ObjectController.cs"
 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.23.0/Hello Cardboard/Scripts/VrModeController.cs"
+"Assets/Scripts/Bullet.cs"
+"Assets/Scripts/Enemy.cs"
+"Assets/Scripts/Money.cs"
 "Assets/Scripts/Tower.cs"
+"Assets/Scripts/Waypoint.cs"
 -langversion:9.0
 
 /deterministic

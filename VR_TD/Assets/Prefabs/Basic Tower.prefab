@@ -58,7 +58,7 @@ Transform:
   m_GameObject: {fileID: 3987193835822232577}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 1, z: 0}
+  m_LocalPosition: {x: 0.5, y: 0.833, z: 0}
   m_LocalScale: {x: 1, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -144,7 +144,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 885567656968159615}
@@ -212,5 +212,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a146d8a526e741c2b5211fa8adddd92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  fireRate: 1
   range: 3
+  bulletPrefab: {fileID: 2989580556912212394, guid: 600be65bd778d474cb01a6e54a9ba83e, type: 3}
+  barrelExit: {fileID: 1520614019731404711}
+  target: {fileID: 0}
