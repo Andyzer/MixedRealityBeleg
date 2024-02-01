@@ -168,7 +168,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -183, y: 0}
+  m_AnchoredPosition: {x: -239, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &389298307621403395
@@ -388,7 +388,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2175563646688386007}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 718729292408397336}
+        m_TargetAssemblyTypeName: PurchaseSpace, Assembly-CSharp
+        m_MethodName: BuyTower
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8039508779027414885
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,4 +652,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97f349b27685047e79ad9abd5cfa78d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moneyText: {fileID: 0}
+  moneyText: {fileID: 932693703859976948}
+  towerPrefab: {fileID: 7611927417560841799, guid: 4f9b1e5431a5c4d0d9a7226083fce257, type: 3}
